@@ -1,0 +1,1153 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(/Imágenesflash/html.jpg);
+  background-size: cover;
+}
+
+img{
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+h4{
+  font-size: 18px;
+}
+
+p{
+  font-size: 17px;
+}
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 15px;
+  top: 8px;
+  color: blue;
+  
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front {
+  background-color:darkgrey;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox {
+  display: none;
+}
+
+.flip-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox:checked + .card {
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card1 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left:310px;
+  top: 8px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front1,
+.back1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front1 {
+  background-color: darkgrey;
+}
+
+.back1 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox1 {
+  display: none;
+}
+
+.flip-label1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox1:checked + .card1 {
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card2 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 600px;
+  top: 8px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front2,
+.back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front2 {
+  background-color:darkgrey;
+}
+
+.back2 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox2 {
+  display: none;
+}
+
+.flip-label2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox2:checked + .card2 {
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card3 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 895px;
+  top: 8px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front3,
+.back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front3 {
+  background-color: darkgrey;
+}
+
+.back3 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox3 {
+  display: none;
+}
+
+.flip-label3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox3:checked + .card3 {
+  transform: rotateY(180deg);
+}
+
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card4 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 1200px;
+  top: 8px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front4,
+.back4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front4 {
+  background-color: darkgrey;
+}
+
+.back4 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox4 {
+  display: none;
+}
+
+.flip-label4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox4:checked + .card4 {
+  transform: rotateY(180deg);
+}
+
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card5 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 15px;
+  top: 330px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front5,
+.back5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front5 {
+  background-color: darkgrey;
+}
+
+.back5 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox5 {
+  display: none;
+}
+
+.flip-label5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox5:checked + .card5 {
+  transform: rotateY(180deg);
+}
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card6 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 310px;
+  top: 330px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front6,
+.back6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front6 {
+  background-color: darkgrey;
+}
+
+.back6 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox6 {
+  display: none;
+}
+
+.flip-label6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox6:checked + .card6 {
+  transform: rotateY(180deg);
+}
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card7 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 600px;
+  top: 330px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front7,
+.back7 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front7 {
+  background-color: darkgrey;
+}
+
+.back7 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox7 {
+  display: none;
+}
+
+.flip-label7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox7:checked + .card7 {
+  transform: rotateY(180deg);
+}
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card8 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 895px;
+  top: 330px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front8,
+.back8 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front8{
+  background-color: darkgrey;
+}
+
+.back8 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox8 {
+  display: none;
+}
+
+.flip-label8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox8:checked + .card8 {
+  transform: rotateY(180deg);
+}
+
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card9 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 1200px;
+  top: 330px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front9,
+.back9 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front9{
+  background-color: darkgrey;
+}
+
+.back9 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox9 {
+  display: none;
+}
+
+.flip-label9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox9:checked + .card9{
+  transform: rotateY(180deg);
+}
+
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card10 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 15px;
+  top: 630px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front10,
+.back10 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front10{
+  background-color: darkgrey;
+}
+
+.back10 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox10 {
+  display: none;
+}
+
+.flip-label10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox10:checked + .card10 {
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card11 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 310px;
+  top: 630px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front11,
+.back11 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front11{
+  background-color: darkgrey;
+}
+
+.back11 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox11 {
+  display: none;
+}
+
+.flip-label11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox11:checked + .card11 {
+  transform: rotateY(180deg);
+}
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card12 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 600px;
+  top: 630px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front12,
+.back12 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front12{
+  background-color: darkgrey;
+}
+
+.back12 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox12 {
+  display: none;
+}
+
+.flip-label12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox12:checked + .card12 {
+  transform: rotateY(180deg);
+}
+
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card13 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 895px;
+  top: 630px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front13,
+.back13 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front13 {
+  background-color: darkgrey;
+}
+
+.back13 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox13 {
+  display: none;
+}
+
+.flip-label13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox13:checked + .card13 {
+  transform: rotateY(180deg);
+}
+
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card14 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 1200px;
+  top: 630px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front14,
+.back14 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front14 {
+  background-color: darkgrey;
+}
+
+.back14 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox14 {
+  display: none;
+}
+
+.flip-label14 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox14:checked + .card14 {
+  transform: rotateY(180deg);
+}
+
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card15 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 15px;
+  top: 930px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front15,
+.back15 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front15 {
+  background-color: darkgrey;
+}
+
+.back15 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox15 {
+  display: none;
+}
+
+.flip-label15 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox15:checked + .card15 {
+  transform: rotateY(180deg);
+}
+
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card16 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 310px;
+  top: 930px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front16,
+.back16 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front16 {
+  background-color: darkgrey;
+}
+
+.back16 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox16 {
+  display: none;
+}
+
+.flip-label16 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox16:checked + .card16 {
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card17 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 600px;
+  top: 930px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front17,
+.back17 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front17 {
+  background-color: darkgrey;
+}
+
+.back17 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox17 {
+  display: none;
+}
+
+.flip-label17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox17:checked + .card17 {
+  transform: rotateY(180deg);
+}
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card18 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 895px;
+  top: 930px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front18,
+.back18 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front18 {
+  background-color: darkgrey;
+}
+
+.back18 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox18 {
+  display: none;
+}
+
+.flip-label18 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox18:checked + .card18 {
+  transform: rotateY(180deg);
+}
+
+
+
+flashcard {
+  perspective: 1000px;
+}
+
+.card19 {
+  position: absolute;
+  width: 233px;
+  height: 220px;
+  left: 1200px;
+  top: 930px;
+  opacity: 40;
+  color: blue;
+
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.front19,
+.back19 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front19 {
+  background-color:darkgrey;
+}
+
+.back19 {
+  transform: rotateY(180deg);
+  background-color: #f8f8f8;
+}
+
+.flip-checkbox19 {
+  display: none;
+}
+
+.flip-label19 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-checkbox19:checked + .card19 {
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
